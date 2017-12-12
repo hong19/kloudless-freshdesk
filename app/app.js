@@ -2,7 +2,7 @@ $(document).ready(function () {
   app.initialized()
     .then(function (_client) {
       var client = _client;
-      
+
       var explorer = window.Kloudless.explorer({
         // Explorer Initialization options here.
         app_id: "szWG8Xbec3v7Y_CRPKuPz_0ltKt0Ra991ZaDaqxVgrgtA0nB",
@@ -22,6 +22,7 @@ $(document).ready(function () {
         })
       });
 
+      explorer.choosify($("#choose-file-btn"));
       // launch chooser
       explorer.choose();
     });

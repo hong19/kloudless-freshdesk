@@ -19,6 +19,12 @@ $(document).ready(function () {
         appendFiles(client, files);
       });
 
+      // when file-explorer close
+      explorer.on('close', function () {
+        // set time out to wait for close animation completion
+        window.setTimeout(explorer.choose.bind(explorer), 300);
+      });
+
       // bind a button to launch file-explorer 
       explorer.choosify($("#choose-file-btn"));
       // launch chooser

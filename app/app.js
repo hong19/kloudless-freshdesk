@@ -25,8 +25,6 @@ $(document).ready(function () {
         window.setTimeout(explorer.choose.bind(explorer), 300);
       });
 
-      // bind a button to launch file-explorer 
-      explorer.choosify($("#choose-file-btn"));
       // launch chooser
       explorer.choose();
     });

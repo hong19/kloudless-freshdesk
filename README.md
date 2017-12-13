@@ -1,6 +1,15 @@
-## Your First App
+# Abstract
+Integrate [file-explorer](http://gitlab.ops.kloudless.com/kloudless/file-explorer) into FreshDesk.
 
-Congratulations on creating your first app! Feel free to replace this text with your app's actual description.
+# Requirements 
+- node >= 6.10.0 
+
+# Install 
+[Install Freshworks CLI](https://developers.freshdesk.com/v2/docs/quick-start/#install_the_cli)
+
+# Test
+[Test Your App](https://developers.freshdesk.com/v2/docs/quick-start/#test_your_app)
+ 
 
 ### Folder structure explained
 
@@ -9,7 +18,6 @@ Congratulations on creating your first app! Feel free to replace this text with 
     ├── app                        Contains the files that are required for the front end component of the app
     │   ├── app.js                 JS to render the dynamic portions of the app
     │   ├── icon.svg               Sidebar icon SVG file. Should have a resolution of 64x64px.
-    │   ├── freshdesk_logo.png     The Freshdesk logo that is displayed in the app
     │   ├── style.css              Style sheet for the app
     │   ├── template.html          Contains the HTML required for the app’s UI
     ├── config                     Contains the installation parameters and OAuth configuration

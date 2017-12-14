@@ -6,7 +6,7 @@ $(document).ready(function () {
       // initialize file-explorer
       var explorer = window.Kloudless.explorer({
         // Explorer Initialization options here.
-        app_id: "szWG8Xbec3v7Y_CRPKuPz_0ltKt0Ra991ZaDaqxVgrgtA0nB",
+        app_id: "mgVcim70lbFnbYYPcV5s8g3bZE7Q0DIIHYjflEj92UVcWUla",
         link: true,
         multiselect: true
       });

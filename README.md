@@ -1,5 +1,8 @@
 # Abstract
-Integrate [file-explorer](http://gitlab.ops.kloudless.com/kloudless/file-explorer) into FreshDesk.
+Integrate [file-explorer](https://github.com/Kloudless/file-explorer) into FreshDesk.
+
+# Demo 
+[![Demo Of Freshdesk PoC](http://img.youtube.com/vi/roBp7ECP_V0/0.jpg)](http://www.youtube.com/watch?v=roBp7ECP_V0)
 
 # Requirements 
 - node >= 6.10.0 

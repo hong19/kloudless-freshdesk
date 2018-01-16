@@ -46,5 +46,5 @@ function appendFiles(client, files) {
   client.interface.trigger('insertElement', {
     id: 'ticketContent',
     content: filesHtml
-  })
+  });
 }

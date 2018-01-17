@@ -43,8 +43,8 @@ function appendFiles(client, files) {
     filesHtml += '<div><a href="' + files[i].link + '">' + files[i].name + '</a></div>';
   }
   // insert the link to ticket editor
-  client.interface.trigger('insertElement', {
-    id: 'ticketContent',
-    content: filesHtml
+  client.interface.trigger('setValue', {
+    id: 'editor',
+    text: filesHtml
   });
 }

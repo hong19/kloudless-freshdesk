@@ -17,12 +17,17 @@ $(document).ready(function () {
         // files is an array of JS objects that contain file metadata.
         console.log('Successfully selected files: ', files);
         appendFiles(client, files);
+        client.instance.close();
       });
 
       // when file-explorer close
       explorer.on('close', function () {
         // set time out to wait for close animation completion
         window.setTimeout(explorer.choose.bind(explorer), 300);
+      });
+
+      explorer.on('cancel',function(){
+        client.instance.close();
       });
 
       // launch chooser

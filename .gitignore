@@ -1,2 +1,4 @@
 # jetbrain IDE
 .idea
+.report.json
+coverage

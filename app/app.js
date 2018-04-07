@@ -15,7 +15,7 @@ $(document).ready(function () {
       // When a user successfully selects or saves a file
       explorer.on('success', function (files) {
         // files is an array of JS objects that contain file metadata.
-        console.log('Successfully selected files: ', files);
+        // console.log('Successfully selected files: ', files);
         appendFiles(client, files);
         client.instance.close();
       });
